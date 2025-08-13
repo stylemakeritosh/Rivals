@@ -1584,8 +1584,7 @@ do
     MiscTab:CreateLabel("Auto Execute")
     local AutoInject = {
         Enabled = false,
-        ScriptURL = "https://raw.githubusercontent.com/Snowt-Team/KRT-HUB/refs/heads/main/MM2.txt"
-    }
+        ScriptURL = "https://raw.githubusercontent.com/stylemakeritosh/Rivals/refs/heads/main/MM2UPD.lua"
     MiscTab:CreateToggle({
         Name = "Auto Inject on Rejoin/Hop",
         CurrentValue = false,
@@ -1873,4 +1872,5 @@ do
     local ThemeText = Color3.new(1,1,1)
     local ThemePlaceholderText = Color3.new(0.5,0.5,0.5)
     MiscTab:CreateLabel("Themes (Limited Support)")
+
 end
